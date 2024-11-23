@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(7, 7, 7);
+  }
+  
+ /* styles.css */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #202042;
+    position: absolute;
+    top: 110px;
+    left: 20px; /* Меню откроется слева */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu.active {
+    display: flex;
+  }
+  
